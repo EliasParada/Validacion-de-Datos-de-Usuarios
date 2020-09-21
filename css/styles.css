@@ -19,12 +19,12 @@ b {
 	width: 150px;
 	height: 98%;
 	display: flex;
-    justify-content: center;
-    align-items: center;
-    padding: 0;
-    margin: 0;
-    background-color: #e67e22;
-    color: white;
+    	justify-content: center;
+    	align-items: center;
+   	padding: 0;
+   	margin: 0;
+    	background-color: #e67e22;
+    	color: white;
 }
 
 .buttons:hover {
@@ -39,12 +39,12 @@ b {
 	height: 100vh;
 	border: 2px solid #e67e22;
 	display: grid;
-    justify-content: center;
-    align-items: center;
-    z-index: 100;
-    padding: 0;
-    margin: 0;
-    background-color: #e67e22;
+   	justify-content: center;
+   	align-items: center;
+   	z-index: 100;
+   	padding: 0;
+  	margin: 0;
+   	background-color: #e67e22;
 }
 
 .inzoom {
@@ -60,12 +60,13 @@ b {
 	position: relative;
 	padding: 0;
 	padding-right: 154px;
+	padding-bottom: 15px;
 	display: grid;
-    justify-content: center;
-    align-items: center;
-    overflow: hidden;
-    transition: 300ms all ease;
-    overflow-y: scroll;
+   	justify-content: center;
+  	align-items: center;
+   	overflow: hidden;
+   	transition: 300ms all ease;
+   	overflow-y: scroll;
 }
 
 #cbxIdiomas {

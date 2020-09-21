@@ -1,0 +1,131 @@
+body {
+	padding: 0;
+	margin: 0;
+	font-family: 'Crete Round', serif;
+	background-color: #bdc3c7;
+}
+
+h3 {
+	width: 90%;
+	margin: 0;
+	text-align: justify;
+}
+
+b {
+	font-style: italic;
+}
+
+.buttons {
+	width: 150px;
+	height: 98%;
+	display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 0;
+    margin: 0;
+    background-color: #e67e22;
+    color: white;
+}
+
+.buttons:hover {
+	background-color: #d35400;
+}
+
+.menu-var {
+	width: 150px;
+	position: fixed;
+	top: 0;
+	right: 0;
+	height: 100vh;
+	border: 2px solid #e67e22;
+	display: grid;
+    justify-content: center;
+    align-items: center;
+    z-index: 100;
+    padding: 0;
+    margin: 0;
+    background-color: #e67e22;
+}
+
+.inzoom {
+	height: 100vh;
+	background-color: #dfe4ea;
+}
+
+.onzoom {
+	height: 0;
+}
+
+.sections {
+	position: relative;
+	padding: 0;
+	padding-right: 154px;
+	display: grid;
+    justify-content: center;
+    align-items: center;
+    overflow: hidden;
+    transition: 300ms all ease;
+    overflow-y: scroll;
+}
+
+#cbxIdiomas {
+	position: relative;
+	width: 200px;
+	height: auto;
+	border-radius: 6px;
+	font-family: 'Roboto Slab', serif;
+	font-size: 1em;
+}
+
+.codigo {
+	padding: 2px;
+	background-color: #1e1e1e;
+	border-radius: 50px;
+	width: 70%;
+}
+
+.code-color {
+	color: #dcdcdc;
+}
+
+.Instrucs {
+	color: #569cd6;
+}
+
+.Names {
+	color: #dcdcaa;
+}
+
+.Elements {
+	color: #9cdcfe;
+}
+
+.Events {
+	color: #4ec9b0;
+}
+
+.Condition {
+	color: #d8a0df;
+}
+
+.Textos {
+	color: #d69b73;
+}
+
+.Arreglos {
+	color: #b4b4b4;
+}
+
+.Comentarios {
+	color: #57a64a;
+}
+
+.Numeros {
+	color: #b5cea8;
+}
+
+.Tab {
+	width: 20px;
+	height: 3px;
+	float: left;
+}

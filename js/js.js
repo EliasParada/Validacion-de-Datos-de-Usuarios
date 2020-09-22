@@ -1,5 +1,5 @@
-	var login = document.getElementById("login");
-	login.disabled = true;
+var login = document.getElementById("login");
+login.disabled = true;
 
 var inicio = function() {
 	var start = document.getElementById("start");

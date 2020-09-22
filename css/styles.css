@@ -47,18 +47,11 @@ b {
    	background-color: #e67e22;
 }
 
-.inzoom {
-	height: 100vh;
-	background-color: #dfe4ea;
-}
-
-.onzoom {
-	height: 0;
-}
-
-.sections {
-	position: relative;
+.Grupo {
+	font-size: 1.3em;
+	border: 0;
 	padding: 0;
+
 	padding-right: 154px;
 	display: grid;
    	justify-content: center;
@@ -75,6 +68,7 @@ b {
 	border-radius: 6px;
 	font-family: 'Roboto Slab', serif;
 	font-size: 1em;
+
 }
 
 .codigo {
@@ -82,6 +76,7 @@ b {
 	margin-bottom: 10px;
 	background-color: #1e1e1e;
 	border-radius: 50px;
+	margin-bottom: 25px;
 	width: 70%;
 }
 
@@ -130,3 +125,35 @@ b {
 	height: 3px;
 	float: left;
 }
+
+
+#cbxIdiomas {
+	position: relative;
+	width: 200px;
+	height: auto;
+	border-radius: 6px;
+	font-family: 'Roboto Slab', serif;
+	font-size: 1em;
+}
+
+.inzoom {
+	height: 100vh;
+	background-color: #dfe4ea;
+}
+
+.onzoom {
+	height: 0;
+}
+
+.sections {
+	position: relative;
+	padding: 0;
+	padding-right: 154px;
+	display: grid;
+    justify-content: center;
+    align-items: center;
+    overflow: hidden;
+    transition: 300ms all ease;
+    overflow-y: scroll;
+}
+

@@ -51,14 +51,6 @@ b {
 	font-size: 1.3em;
 	border: 0;
 	padding: 0;
-
-	padding-right: 154px;
-	display: grid;
-   	justify-content: center;
-  	align-items: center;
-   	overflow: hidden;
-   	transition: 300ms all ease;
-   	overflow-y: scroll;
 }
 
 #cbxIdiomas {
